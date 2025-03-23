@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문 조사</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #b8c6db;
+            font-family: 'Do Hyeon', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center; /* 컨테이너 내부 요소 가운데 정렬 */
+        }
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            transition: all .3s;
+            display: inline-block; /* a 태그를 인라인 블록으로 변경하여 가운데 정렬 가능하게 함 */
+            margin: 0; /* a 태그의 margin 제거 */
+        }
+        a:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>위험 회피 성향 파악</h1>
+        <p>나의 위험 회피 성향은?</p>
+        <a href="main.html">시작하기</a>
+    </div>
+</body>
+</html>
